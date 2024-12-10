@@ -4,7 +4,7 @@ public class EvenCharString{
     Scanner s=new Scanner(System.in);
     String a=s.nextLine();
     String ans="";
-    for(int i=0;i<a.length();i++)
+    for(int i=0;i<a.length();i+=2)
     {
         ans+=a.charAt(i);
     }
